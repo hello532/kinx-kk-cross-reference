@@ -27,7 +27,9 @@ with attribution.
 
 ## How to cite
 
-**DOI:** https://doi.org/10.5281/zenodo.24182083
+**DOI (concept, always latest version):** https://doi.org/10.5281/zenodo.24182082
+
+**DOI (this version, v1.0):** https://doi.org/10.5281/zenodo.24182083
 
 
 ```text

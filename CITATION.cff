@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 title: "KINX KK cross-reference: HIWIN KK50/KK60/KK86 part numbers with lead, grade and stroke"
-version: "1.0"
+version: "1.1"
 date-released: "2026-11-13"
 license: CC-BY-4.0
 url: "https://kinxfa.com/pages/hiwin-kk-part-number-decoder"
@@ -27,3 +27,6 @@ authors:
 identifiers:
   - type: doi
     value: "https://doi.org/10.5281/zenodo.24182083"
+  - type: doi
+    value: "https://doi.org/10.5281/zenodo.24182082"
+    description: "Concept DOI -- always resolves to the latest version."

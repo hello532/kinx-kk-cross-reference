@@ -3,7 +3,7 @@
   "name": "kinx-kk-cross-reference",
   "title": "KINX KK cross-reference: HIWIN KK50/KK60/KK86 part numbers with lead, grade and stroke",
   "description": "56 HIWIN-type KK linear module part numbers mapped to frame size, screw lead, accuracy grade, rail length, maximum stroke with one block, and the KINX build that matches the mounting dimensions.",
-  "version": "1.0",
+  "version": "1.1",
   "created": "2026-11-13",
   "licenses": [
     {
@@ -107,5 +107,6 @@
       "mediatype": "application/json"
     }
   ],
-  "doi": "https://doi.org/10.5281/zenodo.24182083"
+  "doi": "https://doi.org/10.5281/zenodo.24182082",
+  "doi_note": "Concept DOI: always resolves to the newest version. Version DOI for v1.0 is https://doi.org/10.5281/zenodo.24182083"
 }
