@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "KINX KK cross-reference: HIWIN KK50/KK60/KK86 part numbers with lead, grade and stroke"
+version: "1.0"
+date-released: "2026-11-13"
+license: CC-BY-4.0
+url: "https://kinxfa.com/pages/hiwin-kk-part-number-decoder"
+repository-code: "https://github.com/hello532/kinx-kk-cross-reference"
+keywords:
+  - linear module
+  - ball screw linear module
+  - HIWIN KK60
+  - KK86
+  - KK50
+  - linear actuator
+  - part number cross reference
+  - replacement
+abstract: >-
+  A cross-reference of 56 HIWIN-type KK linear module part numbers, mapping each
+  to frame size, screw lead, accuracy grade, rail length and maximum stroke with
+  one block, plus the equivalent KINX build. Intended as a starting point for a
+  drawing check before a replacement order.
+authors:
+  - name: "KINX Linear Modules"
+    website: "https://kinxfa.com/"

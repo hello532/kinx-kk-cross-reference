@@ -1,0 +1,515 @@
+{
+ "dataset": "KINX KK cross-reference (HIWIN KK part numbers)",
+ "publisher": "KINX Linear Modules",
+ "url": "https://kinxfa.com/pages/hiwin-kk-part-number-decoder",
+ "license": "CC BY 4.0 — cite the URL above",
+ "updated": "2026-11-13",
+ "note": "Grade names follow the HIWIN-type naming used on the page. Max stroke is for one block; confirm on drawing.",
+ "count": 56,
+ "records": [
+  {
+   "part_number": "KK5002C-150A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Normal (C)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002C · from US$120"
+  },
+  {
+   "part_number": "KK5002P-150A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Precision (P)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002P · from US$120"
+  },
+  {
+   "part_number": "KK5002C-200A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Normal (C)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002C · from US$120"
+  },
+  {
+   "part_number": "KK5002P-200A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Precision (P)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002P · from US$120"
+  },
+  {
+   "part_number": "KK5002C-250A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Normal (C)",
+   "rail_length": "250 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002C · from US$120"
+  },
+  {
+   "part_number": "KK5002P-250A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Precision (P)",
+   "rail_length": "250 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002P · from US$120"
+  },
+  {
+   "part_number": "KK5002C-300A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Normal (C)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002C · from US$120"
+  },
+  {
+   "part_number": "KK5002P-300A1-F0",
+   "size": "KK50",
+   "lead": "2 mm",
+   "grade": "Precision (P)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "confirm on drawing",
+   "kinx_build": "KINX KK5002P · from US$120"
+  },
+  {
+   "part_number": "KK6005C-150A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "60 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-150A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "60 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6005C-200A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "110 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-200A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "110 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6005C-300A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-300A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6005C-400A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "400 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-400A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "400 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6005C-500A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "500 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-500A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "500 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6005C-600A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Normal (C)",
+   "rail_length": "600 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK6005C · from US$90"
+  },
+  {
+   "part_number": "KK6005P-600A1-F0",
+   "size": "KK60",
+   "lead": "5 mm",
+   "grade": "Precision (P)",
+   "rail_length": "600 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK6005P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-150A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "60 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-150A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "150 mm",
+   "max_stroke_single_block": "60 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-200A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "110 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-200A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "200 mm",
+   "max_stroke_single_block": "110 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-300A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-300A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "300 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-400A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "400 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-400A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "400 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-500A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "500 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-500A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "500 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK6010C-600A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "600 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK6010C · from US$90"
+  },
+  {
+   "part_number": "KK6010P-600A1-F0",
+   "size": "KK60",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "600 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK6010P · from US$90"
+  },
+  {
+   "part_number": "KK8610C-340A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "340 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-340A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "340 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8610C-440A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "440 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-440A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "440 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8610C-540A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "540 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-540A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "540 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8610C-640A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "640 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-640A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "640 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8610C-740A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "740 mm",
+   "max_stroke_single_block": "610 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-740A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "740 mm",
+   "max_stroke_single_block": "610 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8610C-940A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Normal (C)",
+   "rail_length": "940 mm",
+   "max_stroke_single_block": "810 mm",
+   "kinx_build": "KINX KK8610C · from US$120"
+  },
+  {
+   "part_number": "KK8610P-940A1-F0",
+   "size": "KK86",
+   "lead": "10 mm",
+   "grade": "Precision (P)",
+   "rail_length": "940 mm",
+   "max_stroke_single_block": "810 mm",
+   "kinx_build": "KINX KK8610P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-340A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "340 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-340A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "340 mm",
+   "max_stroke_single_block": "210 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-440A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "440 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-440A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "440 mm",
+   "max_stroke_single_block": "310 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-540A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "540 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-540A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "540 mm",
+   "max_stroke_single_block": "410 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-640A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "640 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-640A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "640 mm",
+   "max_stroke_single_block": "510 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-740A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "740 mm",
+   "max_stroke_single_block": "610 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-740A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "740 mm",
+   "max_stroke_single_block": "610 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  },
+  {
+   "part_number": "KK8620C-940A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Normal (C)",
+   "rail_length": "940 mm",
+   "max_stroke_single_block": "810 mm",
+   "kinx_build": "KINX KK8620C · from US$120"
+  },
+  {
+   "part_number": "KK8620P-940A1-F0",
+   "size": "KK86",
+   "lead": "20 mm",
+   "grade": "Precision (P)",
+   "rail_length": "940 mm",
+   "max_stroke_single_block": "810 mm",
+   "kinx_build": "KINX KK8620P · from US$120"
+  }
+ ]
+}
