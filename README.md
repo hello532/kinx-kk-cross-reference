@@ -44,6 +44,18 @@ https://kinxfa.com/pages/hiwin-kk-part-number-decoder
 }
 ```
 
+### Scope of the licence
+
+The part-number strings and the `Max stroke (1 block)` values reproduce what the
+original manufacturer publishes in its catalogue. KINX asserts copyright only in
+the **selection and arrangement** of this table, in its own derived columns
+(`KINX build`, `Quote`) and in the accompanying text. Where a third party holds
+rights in an individual catalogue value, this licence does not extend to that
+value; it remains attributable to its publisher, and this dataset does not claim
+otherwise.
+
+If you redistribute the table, keep this paragraph with it.
+
 ## Read this before ordering against the table
 
 The part numbers and the `Max stroke (1 block)` values reproduce what the manufacturer publishes.
