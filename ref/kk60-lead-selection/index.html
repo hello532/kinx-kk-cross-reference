@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KK60 lead selection: 5, 10 or 20 mm - speed, thrust and resolution</title>
+<meta name="description" content="What 5, 10 and 20 mm screw lead change on a KK60 linear module: speed at 3000 rpm, thrust ratio, step resolution and the limits that bite first.">
+<link rel="canonical" href="https://hello532.github.io/kinx-kk-cross-reference/ref/kk60-lead-selection/">
+<style>
+:root{{--fg:#111;--mut:#5b6470;--line:#e3e6ea;--acc:#0b5fff;--bg:#fff}}
+*{{box-sizing:border-box}}
+body{{margin:0;padding:32px 20px 72px;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);max-width:980px;margin-inline:auto}}
+h1{{font-size:1.9rem;line-height:1.25;margin:0 0 .4em}}
+h2{{font-size:1.3rem;margin:2em 0 .5em;padding-top:.2em}}
+h3{{font-size:1.05rem;margin:1.4em 0 .3em}}
+p,li{{color:#222}}
+.lede{{color:var(--mut);font-size:1.05rem}}
+a{{color:var(--acc);text-decoration:none}}
+a:hover{{text-decoration:underline}}
+table{{width:100%;border-collapse:collapse;font-size:.92rem;margin:1em 0}}
+th,td{{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}}
+th{{background:#f6f8fa;font-weight:600;position:sticky;top:0}}
+td.n{{font-variant-numeric:tabular-nums}}
+code{{font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#f4f6f8;padding:1px 5px;border-radius:4px}}
+.note{{border-left:3px solid var(--acc);padding:.6em 0 .6em 1em;color:var(--mut);margin:1.5em 0;background:#fafbfc}}
+footer{{margin-top:3em;padding-top:1.2em;border-top:1px solid var(--line);color:var(--mut);font-size:.88rem}}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@type": "TechArticle",
+ "headline": "KK60 lead selection: what 5, 10 and 20 mm actually change",
+ "description": "How screw lead trades speed, thrust and step resolution on a KK60 linear module, with the arithmetic and the two limits that appear before the thrust limit.",
+ "url": "https://hello532.github.io/kinx-kk-cross-reference/ref/kk60-lead-selection/",
+ "isPartOf": {
+  "@type": "Dataset",
+  "name": "KINX KK cross-reference",
+  "identifier": "10.5281/zenodo.24182082"
+ },
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "publisher": {
+  "@type": "Organization",
+  "name": "KINX Linear Modules",
+  "url": "https://kinxfa.com/"
+ },
+ "breadcrumb": {
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+   {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Dataset",
+    "item": "https://hello532.github.io/kinx-kk-cross-reference/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "name": "KK part number table",
+    "item": "https://hello532.github.io/kinx-kk-cross-reference/ref/"
+   },
+   {
+    "@type": "ListItem",
+    "position": 3,
+    "name": "KK60 lead selection",
+    "item": "https://hello532.github.io/kinx-kk-cross-reference/ref/kk60-lead-selection/"
+   }
+  ]
+ }
+}</script>
+</head><body>
+<h1>KK60 lead selection: what 5, 10 and 20&nbsp;mm actually change</h1>
+<p class="lede">Lead is the one number in a KK60 part number that trades speed against thrust against
+resolution. Here is the arithmetic, using the same 1&nbsp;mm/rev baseline, so you can pick before you quote.</p>
+<h2>The three-way trade</h2>
+<p>For a ball screw, thrust and speed move inversely with lead at a fixed motor torque and fixed motor speed:</p>
+<table><thead><tr><th>Lead</th><th>Speed at 3000&nbsp;rpm</th><th>Thrust vs 5&nbsp;mm lead</th><th>Resolution per full step (1.8&deg; motor, direct)</th><th>Pick it when</th></tr></thead>
+<tbody>
+<tr><td class="n">5&nbsp;mm</td><td class="n">15&nbsp;m/min</td><td class="n">1&times; (baseline)</td><td class="n">25&nbsp;&micro;m</td><td>Pressing, clamping, dispensing &mdash; force matters more than cycle time</td></tr>
+<tr><td class="n">10&nbsp;mm</td><td class="n">30&nbsp;m/min</td><td class="n">0.5&times;</td><td class="n">50&nbsp;&micro;m</td><td>General pick-and-place; the default compromise</td></tr>
+<tr><td class="n">20&nbsp;mm</td><td class="n">60&nbsp;m/min</td><td class="n">0.25&times;</td><td class="n">100&nbsp;&micro;m</td><td>Long transfer moves where the load is light and the stroke is long</td></tr>
+</tbody></table>
+<p>The numbers above are the direct consequence of lead, not a manufacturer's claim: doubling the lead doubles
+the distance per revolution and halves the force per unit of motor torque. The step-resolution column assumes a
+1.8&deg; stepper with no microstepping and no gearbox; add a 5:1 planetary and divide by five.</p>
+<h2>Where the 20&nbsp;mm lead falls apart</h2>
+<p>Two limits show up before the thrust limit does. The first is <strong>critical speed</strong>: a longer screw
+whipping at high rpm. The second is <strong>resonance at the stroke ends</strong>, which appears as a
+positioning error that only shows up in one direction. On a 1310&nbsp;mm stroke, a 20&nbsp;mm lead is usually
+chosen for the transfer moves and then run at half the calculated top speed to stay clear of both. If your
+cycle needs the full 60&nbsp;m/min at that stroke, you want a larger frame (KK86), not a longer KK60.</p>
+<h2>Where the 5&nbsp;mm lead costs you money</h2>
+<p>15&nbsp;m/min at 3000&nbsp;rpm is fine for a press, painful for a gantry. Before you specify 5&nbsp;mm for
+thrust, check whether the force you need is actually continuous or only at the moment of contact: a 10&nbsp;mm
+lead with a 2:1 belt reduction gives you the same thrust, better resolution and a shorter cycle, at the cost of
+one more part in the BOM.</p>
+<h2>Mounting dimensions that do not change with lead</h2>
+<p>Rail width, combined height, hole pitch and motor flange stay the same across leads within a frame size.
+That is why a lead change is usually the cheapest redesign: the machine's mounting plate does not move. It is
+also why a "cheaper equivalent" with the same lead can still not fit &mdash; the flange is the field that
+breaks.</p>
+<h2>Next steps</h2>
+<ul>
+<li><a href="https://kinxfa.com/pages/kk6005">KK60 with 5&nbsp;mm lead</a> &mdash; thrust-first builds</li>
+<li><a href="https://kinxfa.com/pages/kk60">KK60 with 10&nbsp;mm lead</a> &mdash; the general-purpose page</li>
+<li><a href="https://kinxfa.com/pages/kk6020">KK60 with 20&nbsp;mm lead</a> &mdash; transfer-first builds</li>
+<li><a href="https://hello532.github.io/kinx-kk-cross-reference/ref/">Full KK part number table</a> (56 models)</li>
+</ul>
+<footer>
+<p>Reference data: <a href="https://hello532.github.io/kinx-kk-cross-reference/">KINX KK cross-reference dataset</a> &middot;
+DOI <a href="https://doi.org/10.5281/zenodo.24182082">10.5281/zenodo.24182082</a> &middot;
+raw <a href="https://hello532.github.io/kinx-kk-cross-reference/data/kinx-kk-cross-reference.csv">CSV</a> /
+<a href="https://hello532.github.io/kinx-kk-cross-reference/data/kinx-kk-cross-reference.json">JSON</a> &middot; CC BY 4.0.</p>
+<p>Product pages and prices: <a href="https://kinxfa.com/pages/hiwin-kk-part-number-decoder">kinxfa.com</a>.
+This page is an independent reference; always confirm against a drawing before ordering.</p>
+</footer></body></html>
