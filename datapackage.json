@@ -6,16 +6,36 @@
   "version": "1.0",
   "created": "2026-11-13",
   "licenses": [
-    { "name": "CC-BY-4.0", "title": "Creative Commons Attribution 4.0 International", "path": "https://creativecommons.org/licenses/by/4.0/" }
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
   ],
   "contributors": [
-    { "title": "KINX Linear Modules", "role": "author", "homepage": "https://kinxfa.com/" }
+    {
+      "title": "KINX Linear Modules",
+      "role": "author",
+      "homepage": "https://kinxfa.com/"
+    }
   ],
   "homepage": "https://kinxfa.com/pages/hiwin-kk-part-number-decoder",
   "sources": [
-    { "title": "HIWIN KK part number decoder (canonical)", "path": "https://kinxfa.com/pages/hiwin-kk-part-number-decoder" }
+    {
+      "title": "HIWIN KK part number decoder (canonical)",
+      "path": "https://kinxfa.com/pages/hiwin-kk-part-number-decoder"
+    }
   ],
-  "keywords": ["linear module", "ball screw linear module", "HIWIN KK60", "KK86", "KK50", "linear actuator", "part number cross reference", "replacement"],
+  "keywords": [
+    "linear module",
+    "ball screw linear module",
+    "HIWIN KK60",
+    "KK86",
+    "KK50",
+    "linear actuator",
+    "part number cross reference",
+    "replacement"
+  ],
   "resources": [
     {
       "name": "kinx-kk-cross-reference",
@@ -26,16 +46,57 @@
       "mediatype": "text/csv",
       "schema": {
         "fields": [
-          { "name": "Part number", "type": "string", "description": "HIWIN-type KK part number" },
-          { "name": "Size", "type": "string", "description": "Frame size", "constraints": { "enum": ["KK50", "KK60", "KK86"] } },
-          { "name": "Lead", "type": "string", "description": "Screw lead in mm" },
-          { "name": "Grade", "type": "string", "description": "C = Normal, P = Precision" },
-          { "name": "Rail", "type": "string", "description": "Rail length in mm" },
-          { "name": "Max stroke (1 block)", "type": "string", "description": "Maximum stroke with one block, where published; otherwise 'confirm on drawing'" },
-          { "name": "KINX build", "type": "string", "description": "KINX model matching the mounting dimensions" },
-          { "name": "Quote", "type": "string", "description": "Pricing route" }
+          {
+            "name": "Part number",
+            "type": "string",
+            "description": "HIWIN-type KK part number"
+          },
+          {
+            "name": "Size",
+            "type": "string",
+            "description": "Frame size",
+            "constraints": {
+              "enum": [
+                "KK50",
+                "KK60",
+                "KK86"
+              ]
+            }
+          },
+          {
+            "name": "Lead",
+            "type": "string",
+            "description": "Screw lead in mm"
+          },
+          {
+            "name": "Grade",
+            "type": "string",
+            "description": "C = Normal, P = Precision"
+          },
+          {
+            "name": "Rail",
+            "type": "string",
+            "description": "Rail length in mm"
+          },
+          {
+            "name": "Max stroke (1 block)",
+            "type": "string",
+            "description": "Maximum stroke with one block, where published; otherwise 'confirm on drawing'"
+          },
+          {
+            "name": "KINX build",
+            "type": "string",
+            "description": "KINX model matching the mounting dimensions"
+          },
+          {
+            "name": "Quote",
+            "type": "string",
+            "description": "Pricing route"
+          }
         ],
-        "primaryKey": ["Part number"]
+        "primaryKey": [
+          "Part number"
+        ]
       }
     },
     {
@@ -45,5 +106,6 @@
       "format": "json",
       "mediatype": "application/json"
     }
-  ]
+  ],
+  "doi": "https://doi.org/10.5281/zenodo.24182083"
 }

@@ -27,6 +27,9 @@ with attribution.
 
 ## How to cite
 
+**DOI:** https://doi.org/10.5281/zenodo.24182083
+
+
 ```text
 KINX Linear Modules. KINX KK cross-reference: HIWIN KK50/KK60/KK86 part numbers with lead,
 grade and stroke. Version 1.0, 13 November 2026. CC BY 4.0.
