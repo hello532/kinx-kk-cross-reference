@@ -12,6 +12,10 @@ with attribution.
 - Structured: [`data/kinx-kk-cross-reference.json`](data/kinx-kk-cross-reference.json) (adds license, publisher, update date)
 - Web view: <https://hello532.github.io/kinx-kk-cross-reference/>
 
+## Scope note
+
+Covers the KK60 5 mm and 10 mm leads. The KK60 20 mm lead is quoted per drawing at https://kinxfa.com/pages/kk6020 and is not carried as a catalogue part number in this dataset; a lead that is absent is built to order, never inferred from a neighbouring row.
+
 ## Columns
 
 | Column | Meaning |

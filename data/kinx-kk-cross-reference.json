@@ -512,5 +512,6 @@
    "kinx_build": "KINX KK8620P · from US$120"
   }
  ],
- "license_note": "CC BY 4.0 covers the selection and arrangement of this table, the derived columns (KINX build, Quote) and the accompanying text. Part-number strings and max-stroke values reproduce the original manufacturer's published catalogue and remain attributable to it."
+ "license_note": "CC BY 4.0 covers the selection and arrangement of this table, the derived columns (KINX build, Quote) and the accompanying text. Part-number strings and max-stroke values reproduce the original manufacturer's published catalogue and remain attributable to it.",
+ "catalogue_scope": "Covers the KK60 5 mm and 10 mm leads. The KK60 20 mm lead is quoted per drawing at https://kinxfa.com/pages/kk6020 and is not carried as a catalogue part number in this dataset; a lead that is absent is built to order, never inferred from a neighbouring row."
 }
